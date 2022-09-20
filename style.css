@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#conteneur
+{
+    padding: 50px;
+}
+
+#contenu {
+    display: flex;
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 5.9%;
+}
+
+#vert {
+    margin: 20px;
+    border: 3px solid green;
+    width: 500px;
+    padding: 10px;
+}
+
+#rouge {
+    margin: 20px;
+    border: 3px solid red;
+    width: 500px;
+    padding: 10px;
+}
+
+#btngreen {
+    color: green;
+    padding: 5px;
+}
+
+input {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btnred {
+    color: red;
+    padding: 5px;
+}
+
+#chiffre {
+    display: flex;
+    min-width: 900px;
+    justify-content: space-around;
+}
+
+#budget h1, #expense h1, #balance h1{
+    text-align: center;
+}
+
+img {
+    margin-left: 30%;
+}
+
+img{
+    width: 100px;
+}
+
+#chiffre p{
+    text-align: center;
+    font-size: 3em;
+}
+
+.petiteicon {
+    width: 20px;
+}
+
+th, td{
+    padding: 10px;
+}
+table {
+    margin-top: 30px;
+    margin-left: 5
+    0px;
+}
+
+#mtnbudget, #mtnbalance {
+    color: green;
+}
+
+#mtnexpense {
+    color: red;
+}
+
+#liste {
+    margin-top: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sousL {
+    display: flex;
+    width: 100%;
+}
+
+.productachter, .coutduproduit{
+    min-width: 300px;
+    font-size: 2em;
+}
+
+.btnS, .btnE{
+    margin-left: 5%;
+}
+
+.conteneursousliste{
+    margin-top: 20px;
+}
+
+#liste {
+    max-width: 800px;
+    min-width: 800px;
+    padding: 20px;
+}
+
+@media screen and (max-width : 1750px) {
+    #contenu {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #chiffre p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #chiffre {
+        display: flex;
+        max-width: 750px;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+    }
+
+    #vert, #rouge {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #liste {
+        margin: auto;
+        margin-top: 50px;
+    }
+    h1{
+        text-align: center;
+    }
+}

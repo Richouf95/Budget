@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Budget</title>
+</head>
+<body>
+    <div id="conteneur">
+        <h1>Expense tracker</h1>
+        <div id="contenu">
+            <div id="formulaire">
+                <div id="vert">
+                    <label for="plusbudget">PLease Enter Your Budget</label> <br>
+                    <input type="number" name="plusbudget" id="plusbudget" > <br>
+                    <button id="btngreen">Calculate</button>
+                </div>
+                <div id="rouge">
+                    <label for="whydepense">PLease Enter Your Expense</label> <br>
+                    <input type="text" name="whydepense" id="whydepense"> <br>
+                    <label for="montantdepense">PLease Enter Expense Amount</label> <br>
+                    <input type="number" name="montantdepense" id="montantdepense"> <br>
+                    <button id="btnred">Add Expense</button>
+                </div>
+            </div>
+            <div id="visuel">
+                <div id="chiffre">
+                    <div id="budget">
+                        <h1>Budget</h1>
+                        <img src="money-icon.png" alt="">
+                        <p><span id="mtnbudget">0</span> CFA</p>
+                    </div>
+                    <div id="expense">
+                        <h1>Expense</h1>
+                        <img src="images.png" alt="">
+                        <p><span id="mtnexpense">0</span> CFA</p>
+                    </div>
+                    <div id="balance">
+                        <h1>Balance</h1>
+                        <img src="download-7.png" alt="">
+                        <p><span id="mtnbalance">0</span> CFA</p>
+                    </div>
+                </div>
+                <div id="liste">
+                    <h1>Liste des opérations</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+<button></button>
+    <script src="script.js"></script>
+</body>
+</html>
